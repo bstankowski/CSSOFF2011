@@ -1,0 +1,9 @@
+Complete the following:
+
+Name: Bartek Stańkowski
+Email Address: bartek@bstankowski.pl
+Address: ul. Krakowska 39/6, 43-190 Mikolow, Poland
+
+Twitter (optional): art_stk
+
+Do not put any identifying information in your code!

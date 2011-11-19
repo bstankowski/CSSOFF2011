@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<!--[if lte IE 7 ]> <html class="no-js ie ie-old" lang="en"> <![endif]-->
+<!--[if IE 8 ]> <html class="no-js ie" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--> 
+<html class="no-js" lang="en">
+<!--<![endif]-->
+<head>
+	<meta charset="utf-8" />
+	<title>Triple Dare – The Web’s Messiest Challenge!</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<link rel="stylesheet" href="css/main.css" />
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans:600' rel='stylesheet'>
+	<!--[if lt IE 9]>
+		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+	<link rel="shortcut icon" href="favicon.ico">
+	<link rel="apple-touch-icon" href="apple-touch-icon.png">
+	<script>(function(H){H.className=H.className.replace(/\bno-js\b/,'js')})(document.documentElement)</script>	
+</head>
+<body>
+
+	<nav id="accessibility-nav" role="navigation">
+		<ol>
+			<li><a href="#navigation">Skip to navigation</a></li>
+			<li><a href="#content">Skip to content</a></li>
+		</ol>
+	</nav>
+
+	<header role="banner">
+		<div class="container">
+			<h1 class="logo">Triple Dare<span></span></h1>
+			<p>The Web’s Messiest Challenge!</p>
+			<p>Airing Thursdays on the Knucklelodeon Network&trade;</p>
+		</div>
+	</header>
+
+	<nav id="navigation" role="navigation">
+		<ul class="container">
+			<li><a href="#obstacles">Obstacles</a></li>
+			<li><a href="#prizes">Prizes</a></li>
+			<li><a href="#contestant">Be A contestant</a></li>
+			<li><a href="#header">Back To Top</a></li>
+		</ul>
+	</nav>
+	
+	<div id="content" role="main">
+		<section id="obstacles">
+			<div class="container">
+				<h2><span>Obstacles</span></h2>
+				
+				<ul class="obstacles">
+					<li>
+						<a href="media/pic-tank-large.png">
+							<img src="media/pic-tank.png" width="191" height="171" alt="" />
+							<span class="caption">The Tank <span>Take a deep breath!</span></span>
+						</a>
+					</li>
+					<li>
+						<a href="media/pic-slide-large.png">
+							<img src="media/pic-slide.png" width="191" height="171" alt="" />
+							<span class="caption">Sundae Slide <span>20ft slide straight into a cupcake!</span></span>
+						</a>
+					</li>
+					<li>
+						<a href="media/pic-wheel-large.png">
+							<img src="media/pic-wheel.png" width="191" height="171" alt="" />
+							<span class="caption">Human Hamster Wheel</span>
+						</a>
+					</li>
+					<li>
+						<a href="media/pic-hatch-large.png" class="current">
+							<img src="media/pic-hatch.png" width="191" height="171" alt="" />
+							<span class="caption">Down The Hatch <span>6ft slide covered in gunk!</span></span>
+						</a>
+					</li>
+					<li>
+						<a href="media/pic-pick-large.png">
+							<img src="media/pic-pick.png" width="191" height="171" alt="" />
+							<span class="caption">Pick It! <span>This is disgusting!</span></span>
+						</a>				
+					</li>
+					<li>
+						<a href="media/pic-wringer-large.png">
+							<img src="media/pic-wringer.png" width="191" height="171" alt="" />
+							<span class="caption">The Wringer <span>6ft slide covered in gunk!</span></span>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</section>
+		<!-- / obstacles -->
+		
+		<section id="prizes">
+			<div class="container">
+				<h2><span>Prizes</span></h2>
+				
+				<ul class="prizes">
+					<li>
+						<img src="media/pic-prize-camp.png" width="353" height="375" alt="" />
+						<span class="caption">A Trip to space camp!</span>
+					</li>
+					<li>
+						<img src="media/pic-prize-skateboard.png" width="393" height="229" alt="" />
+						<span class="caption">A Nash Skateboard!</span>
+					</li>
+					<li>
+						<img src="media/pic-prize-keyboard.png" width="391" height="165" alt="" />
+						<span class="caption">A Casio Rapman Keyboard!</span>
+					</li>
+					<li>
+						<img src="media/pic-prize-tv.png" width="333" height="351" alt="" />
+						<span class="caption">A 13 Inch <dfn title="Television / Video Cassette Recording">TV/VCR</dfn> Combo!</span>
+					</li>
+				</ul>
+			</div>
+		</section>
+		<!-- / prizes -->
+			
+		<section id="contestant">
+			<div class="container">
+				<h2><span>Be A Contestant</span></h2>
+				
+				<div class="timer" role="timer" aria-labelledby="clock-status">
+					<div class="clock"><span>60</span></div>
+					<strong id="clock-status">The clock is&nbsp;ticking!</strong>
+				</div>
+				
+				<form action="/" method="post">
+					<fieldset>
+						<ul>
+							<li class="text">
+								<label for="your-name">Your name</label>
+								<input type="text" id="your-name" name="your-name" required aria-required="true" />
+							</li>					
+							<li class="text">
+								<label for="email">Email address</label>
+								<input type="email" id="email" name="email" required aria-required="true" />
+							</li>					
+							<li class="text">
+								<label for="team-name">Team name</label>
+								<input type="text" id="team-name" name="team-name" required aria-required="true" />
+							</li>					
+							<li>
+								<div class="select">
+									<label for="team-color">Team color</label>
+									<select id="team-color" name="team-color" required aria-required="true">
+										<option value="" selected>Team color</option>
+										<option value="Green">Green</option>
+										<option value="Blue">Blue</option>
+										<option value="Red">Red</option>
+										<option value="Orange">Orange</option>
+									</select>
+								</div>
+								<div class="select gender">
+									<label for="gender">Gender</label>
+									<select id="gender" name="gender" required aria-required="true">
+										<option value="" selected>Gender</option>
+										<option value="Female">Female</option>
+										<option value="Male">Male</option>
+									</select>
+								</div>
+							</li>
+							<li class="text">
+								<label for="photo-url">Profile Photo URL</label>
+								<input type="url" id="photo-url" name="photo-url" required aria-required="true" />
+							</li>
+						</ul>
+						
+						<button type="submit"><span>Submit Entry!</span></button>
+					</fieldset>
+				</form>
+			</div>
+		</section>
+		<!-- / contestant -->
+	</div>
+	<!-- / content -->
+
+	<footer role="contentinfo">
+		<div class="container">
+			<a class="logo-kn" href="vcard.vcf" title="Download Knucklelodeon Network vCard">Knucklelodeon Network<span></span></a>
+			<div class="vcard" itemscope itemtype="http://data-vocabulary.org/Organization">
+				<h2 class="fn org" itemprop="name">The Knucklelodeon Network</h2>
+				<p class="column">The Knucklelodeon Network is not affiliated with Nickelodeon, nor is it an actual television network</p>
+				<p class="column alt">Triple Dare contestents consent to potential physical bodily harm, like being burried alive by a giant waffle.</p>
+				
+				<h3>Visit Our Studios</h3>
+				<div class="adr column" itemprop="address" itemscope itemtype="http://data-vocabulary.org/Address">
+					<span class="street-address" itemprop="street-address">11 Slime Time Way</span>
+					<span class="locality" itemprop="locality">Sacrameno</span>, 
+					<abbr class="region" itemprop="region" title="California">CA</abbr> 
+					<span class="postal-code" itemprop="postal-code">94203</span>
+				</div>
+				<div class="adr column alt" itemprop="address" itemscope itemtype="http://data-vocabulary.org/Address">
+					<span class="street-address" itemprop="street-address">329 Gunk Road</span> 
+					<span class="locality" itemprop="locality">Jacksonville</span>, 
+					<abbr class="region" itemprop="region" title="Florida">FL</abbr> 
+					<span class="postal-code" itemprop="postal-code">32099</span>
+				</div>
+			</div>
+		</div>
+		
+		<div class="container">
+			<p class="copyrights">This design is licensed under a <a href="http://creativecommons.org/licenses/by-nc-nd/3.0/" rel="license">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</a></p>
+			
+			<a href="http://creativecommons.org/licenses/by-nc-nd/3.0/" class="license" rel="license">Creative Commons Attribution-NonCommercial-NoDerivs 3.0 License</a>
+		</div>
+	</footer>
+
+<!--[if lt IE 9]><script src="js/respond.min.js"></script><![endif]-->
+<script src="js/plugins.js"></script>
+<script src="js/main.js"></script>
+
+</body>
+</html>
